@@ -22,7 +22,7 @@ class School
     binding.pry
     @roster.sort.to_h
     # @roster.each do |k , v|
-    #   k = 
+    #   k =
     end
   end
 
