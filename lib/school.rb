@@ -10,7 +10,7 @@ class School
   def add_student(name, grade)
     @roster.has_key?(grade)
     @roster[grade] = [name]
-
+    name << [name]
 
   end
 
