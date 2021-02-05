@@ -21,7 +21,7 @@ class School
   def sort
     # binding.pry
     # @roster.sort.to_h
-    @roster.sort{|k, v| k<=>v.to_h}
+    @roster.map(&:sort).map(&:to_h)
 
   end
 
