@@ -24,7 +24,6 @@ class School
       sorted_hash[grade] = name.sort
     end
     sorted_hash
-    binding.pry
   end
 
 
