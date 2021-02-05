@@ -20,8 +20,14 @@ class School
 
   def sort
     # binding.pry
-    # @roster.sort.to_h
-    @roster.map(&:sort).map(&:to_h)
+  #  @roster.sort.to_h
+  sorted = {}
+  @roster.each do |first, last|
+    sorted[first] = last.sort
+  end
+    sorted
+  end
+  
 
   end
 
