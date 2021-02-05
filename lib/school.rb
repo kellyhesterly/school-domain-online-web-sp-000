@@ -20,9 +20,8 @@ class School
 
   def sort
     # binding.pry
-    @roster.sort.to_h
-    # @roster.each do |k , v|
-    #   k =
+    # @roster.sort.to_h
+    @roster.sort{|k, v| k<=>v.to_h}
 
   end
 
