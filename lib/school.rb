@@ -20,7 +20,7 @@ class School
 
   def sort
     binding.pry
-    @roster[grade].sort
+    @roster.sort
   end
 
 end
