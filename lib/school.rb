@@ -24,7 +24,7 @@ class School
       grade.map do |a, b|
         a <=> b
         end
-    
+
     end
   end
 
