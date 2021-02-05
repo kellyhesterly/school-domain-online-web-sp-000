@@ -22,7 +22,6 @@ class School
     binding.pry
     @roster.each do |k , v|
 
-   end
   end
 
 
