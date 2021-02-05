@@ -22,7 +22,7 @@ class School
     # binding.pry
     @roster.each do |grade|
       grade.map do |name_1, name_2|
-        name_1[0] <=> name_2[0]
+        name_1 <=> name_2
         end
       end
     end
