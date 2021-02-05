@@ -20,7 +20,7 @@ class School
 
   def sort
     # binding.pry
-    sorted = @roster.each do |grade, name|
+    @roster.each do |grade, name|
    if grade == grade
      name.sort {|a, b| a <=> b}
    end
