@@ -19,6 +19,7 @@ class School
   end
 
   def sort
+    binding.pry
     sorted = {}
     @roster.each do |first, last|
       sorted[first] = last.sort
