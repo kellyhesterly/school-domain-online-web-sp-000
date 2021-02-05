@@ -22,7 +22,7 @@ class School
     # binding.pry
     @roster.each do |grade|
     grade.map do |name|
-      name.sort_by!{|a, b| a <=> b}
+      name.sort_by{|a, b| a <=> b}
     end
   end
 end
