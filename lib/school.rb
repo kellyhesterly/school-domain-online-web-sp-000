@@ -22,7 +22,7 @@ class School
     # binding.pry
     @roster.each do |grade|
     grade.map do |num|
-    num.each do |name|
+    num.inspect do |name|
       name.sort {|a, b| a <=> b}
     end
     end
