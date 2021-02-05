@@ -23,6 +23,8 @@ class School
     @roster.each do |grade|
     grade.map do |name|
       name.sort_by!(&:name)
+    end
+  end
         end
 
 
