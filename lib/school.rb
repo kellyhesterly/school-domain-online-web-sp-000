@@ -22,9 +22,9 @@ class School
     sorted_hash = {}
     @roster.each do |grade, name|
       sorted_hash[grade] = name.sort
-      binding.pry
     end
     sorted_hash
+    binding.pry
   end
 
 
