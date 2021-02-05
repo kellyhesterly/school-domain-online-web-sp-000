@@ -20,11 +20,14 @@ class School
 
   def sort
     # binding.pry
-    @roster.each do |grade|
-      grade.map do |name_1, name_2|
-        name_1 <=> name_2
-        end
-      end
+    @roster.sort_by! {|grade| grade[name]}
+
+
+    # @roster.each do |grade|
+    #   grade.map do |name_1, name_2|
+    #     name_1 <=> name_2
+    #     end
+    #   end
     end
 
 end
