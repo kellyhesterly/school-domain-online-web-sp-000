@@ -25,6 +25,7 @@ class School
     num.each do |name|
       name.sort {|a, b| a <=> b}
     end
+    end
   end
 end
 
