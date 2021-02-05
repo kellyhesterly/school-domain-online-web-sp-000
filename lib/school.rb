@@ -20,7 +20,7 @@ class School
 
   def sort
     binding.pry
-    @roster.sort.to_h {|a, b| a <=> b}
+    @roster.sort {|a, b| b}
   end
 
 end
