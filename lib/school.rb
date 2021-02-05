@@ -20,7 +20,7 @@ class School
 
   def sort
     binding.pry
-    @roster.sort_by {|a, b| [a <=> b]}
+    @roster[grade].sort_by {|a, b| [ <=> ]}
   end
 
 end
