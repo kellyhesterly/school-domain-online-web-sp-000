@@ -25,7 +25,6 @@ class School
         name.sort {|a, b| a <=> b}
    end
   end
-  end
 
 
 
