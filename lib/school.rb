@@ -21,8 +21,9 @@ class School
   def sort
     # binding.pry
     @roster.each do |grade|
-    grade.map do |name|
-      name.sort{|a, b| a <=> b}
+    grade.map do |num|
+    num.each do |name|
+      name.sort {|a, b| a <=> b}
     end
   end
 end
