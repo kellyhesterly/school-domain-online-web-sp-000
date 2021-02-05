@@ -18,9 +18,11 @@ class School
     @roster[grade]
   end
 
-  def sort(grade)
+  def sort
     # binding.pry
-    @roster[grade].sort_by {|a, b| [a <=> b]}
+    @roster.each do |grade, name|
+      grade.sort_by {|a, b| a <=> b}
+    end
   end
 
 end
