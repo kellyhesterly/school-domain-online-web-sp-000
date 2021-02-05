@@ -11,8 +11,8 @@ class School
     name = gets.chomp
     @roster.has_key?(grade)
     @roster[grade] = [name]
-    
-    
+
+
   end
 
 
