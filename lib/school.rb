@@ -8,8 +8,11 @@ class School
   end
 
   def add_student(name, grade)
+    name = gets.chomp
     @roster.has_key?(grade)
     @roster[grade] = [name]
+    
+    
   end
 
 
