@@ -21,7 +21,7 @@ class School
   def sort
     binding.pry
     @roster.each do |grade, name|
-      grade == grade
+      [grade] == [grade]
         name.sort {|a, b| a <=> b}
    end
   end
