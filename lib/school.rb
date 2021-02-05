@@ -20,7 +20,7 @@ class School
 
   def sort
     # binding.pry
-    @roster.each do |grade|
+    @roster.each do |grade_x, grade_y|
       grade.map do |name_1, name_2|
         name_1 <=> name_2
         end
