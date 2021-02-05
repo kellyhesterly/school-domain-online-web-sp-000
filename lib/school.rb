@@ -18,7 +18,7 @@ class School
     @roster[grade]
   end
 
-  def sort
+  def sort(grade)
     binding.pry
     @roster[grade].sort_by {|a, b| [a <=> b]}
   end
